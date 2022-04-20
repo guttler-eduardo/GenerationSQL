@@ -95,7 +95,7 @@ CREATE TABLE tb_alunos (
     Curso VARCHAR(255),
     Semestre INT,
     Turno VARCHAR(255),
-    Nota DOUBLE,
+    Nota DECIMAL,
     PRIMARY KEY (ID)
 );
 
